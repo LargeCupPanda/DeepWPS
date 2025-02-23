@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- 外圈圆环 -->
+  <circle cx="12" cy="12" r="10" 
+    fill="none" 
+    stroke="currentColor" 
+    stroke-width="2"/>
+  
+  <!-- 信息点 -->
+  <circle cx="12" cy="8" r="1.5" 
+    fill="currentColor"/>
+  
+  <!-- 信息条 -->
+  <path d="M12 11.5v6" 
+    stroke="currentColor" 
+    stroke-width="2" 
+    stroke-linecap="round"/>
+</svg>

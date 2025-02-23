@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnAddinLoad">
+    <ribbon startFromScratch="false">
+        <tabs>
+            <tab id="aiTab" label="智能助理">
+                <group id="aiGroup" label="AI功能">
+                    <button id="btnShowAI"
+                            label="智能助理"
+                            onAction="OnAction" 
+                            getEnabled="OnGetEnabled"
+                            getImage="GetImage"
+                            size="large"/>
+                    <button id="btnShowSettings" 
+                            label="设置" 
+                            onAction="OnAction" 
+                            getEnabled="OnGetEnabled"
+                            getImage="GetImage"
+                            size="normal"/>
+                    <button id="btnShowabouts"
+                            label="关于"
+                            onAction="OnAction"
+                            getEnabled="OnGetEnabled"
+                            getImage="GetImage"
+                            size="normal"/>
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
